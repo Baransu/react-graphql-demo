@@ -3,29 +3,30 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "apollo-cache-inmemory": "^1.1.0",
-    "apollo-client": "^2.0.2",
-    "apollo-link": "^1.0.0",
-    "apollo-link-context": "^1.0.0",
-    "apollo-link-http": "^1.1.0",
+    "apollo-client-preset": "^1.0.8",
+    "apollo-link-context": "^1.0.3",
     "enzyme": "^3.1.1",
-    "graphql": "^0.11.7",
-    "graphql-tag": "^2.5.0",
-    "react": "^16.1.1",
-    "react-apollo": "^2.0.1",
-    "react-dom": "^16.1.1",
+    "graphql": "^0.12.3",
+    "graphql-tag": "^2.6.1",
+    "react": "^16.2.0",
+    "react-apollo": "^2.0.4",
+    "react-dom": "^16.2.0",
     "react-redux": "^5.0.6",
-    "react-scripts": "1.0.17",
-    "redux": "^3.7.2"
+    "react-scripts": "1.1.0",
+    "redux": "^3.7.2",
+    "styled-components": "^3.1.6"
   },
   "scripts": {
-    "flow": "flow",
+    "flow": "glow",
+    "flow:watch": "glow --watch",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
   "devDependencies": {
-    "flow-bin": "^0.59.0"
+    "flow-bin": "^0.64.0",
+    "glow": "^1.1.2",
+    "prettier": "^1.10.2"
   }
 }
